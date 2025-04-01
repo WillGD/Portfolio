@@ -7,10 +7,6 @@ Bem-vindo ao meu portfólio! Aqui você encontrará uma visão geral de quem sou
 - **HTML**: A base de todos os meus projetos web.
 - **CSS**: Estilização e design responsivo para garantir que o portfólio seja bonito e acessível em todos os dispositivos.
 - **JavaScript**: Para tornar o portfólio interativo e dinâmico.
-- **React**: Biblioteca para construir interfaces de usuário eficientes e interativas.
-- **Salesforce**: Trabalhando com Apex, LWC, e integração com plataformas baseadas em nuvem.
-- **Node.js**: Para backend e automação de processos.
-- **MySQL & SQL Server**: Gerenciamento de bancos de dados relacionais para soluções backend.
 
 ## 🧑‍💻 Sobre mim
 
