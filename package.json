@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao meu portfólio! Aqui você encontrará uma visão geral de quem sou, as tecnologias que utilizo, e os projetos que desenvolvi ao longo da minha jornada como desenvolvedor Salesforce.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillGD/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillGD/Portfolio/issues"
+  },
+  "homepage": "https://github.com/WillGD/Portfolio#readme"
+}
