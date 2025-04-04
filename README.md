@@ -26,7 +26,7 @@ Este repositório contém o código fonte do meu portfólio, desenvolvido com HT
 ## 📫 Como entrar em contato
 
 - **LinkedIn**: [Will Dantas](https://www.linkedin.com/in/will-dantas-54532922b/)
-- **GitHub**: [github.com/seu-usuario](https://github.com/WillGD)
+- **GitHub**: [WillGD](https://github.com/WillGD/Portfolio)
 - **E-mail**: willgustavodantasadolpho@gmail.com
 
 ## 🎯 Objetivo
