@@ -4,28 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Will Portfolio</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="scripts/script.js"></script>
   <link rel="icon" href="img/will_png.png" type="image/png">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
 
-  <header>
-    <div class="social-icons">
-      <a href="https://github.com/WillGD" rel="noopener noreferrer">
-        <img src="icon/GitHub.svg" alt="GitHub">
-      </a>
-      <a href="https://www.linkedin.com/in/will-dantas-54532922b/" rel="noopener noreferrer">
-        <img src="icon/linkedin.svg" alt="LinkedIn">
-      </a>
-    </div>
-  </header>
+<header>
+  <div class="social-icons">
+    <a href="https://github.com/WillGD" rel="noopener noreferrer" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" width="30" height="30" style="filter: invert(1);" />
+    </a>
+    <a href="https://www.linkedin.com/in/will-dantas-54532922b/" rel="noopener noreferrer" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" width="30" height="30" style="filter: invert(34%) sepia(96%) saturate(748%) hue-rotate(180deg) brightness(91%) contrast(89%);" />
+    </a>
+  </div>
+</header>
+
 
  
   <section class="hero">
     <div class="text-hero">
-      <h1><span>Salve! Eu sou o Will</span></h1>
+      <h1><span>Prazer! Eu sou o Will</span></h1>
       <h2>DevOps & Desenvolvimento</h2>
       <p>
         Eu sou o Will, um DevOps e desenvolvedor que vive pra automatizar tudo — desde deploys até café fresco. Curto transformar problemas cabeludos em pipelines lisinhos, brincar com scripts e ver infraestrutura se orquestrar como mágica. Se quiser agilizar seu produto e deixar os bugs no passado, chegou no lugar certo.
@@ -34,8 +35,8 @@
       <a class="btn" href="javascript:void(0);" onclick="gerarCurriculoPDF()">Download CV</a>
     </div>
     <div class="img-hero">  
-      <img src="img/rectangle_with_code.png" alt="Retângulo" class="retangulo">  
-      <img src="img/will_png.png" alt="Will" class="will">  
+      <img src="img/will_with_background.png" alt="Retângulo" class="retangulo">  
+      <img src="img/will_clean_png.png" alt="Will" class="will">  
   </div>  
   </section>
 
@@ -81,9 +82,8 @@
         <span>MySQL</span>
       </div>
       <div data-name="AWS">
-        <img src="icon/aws-svgrepo-com.svg" alt="AWS">
-        <span>AWS</span>
-      </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" />
+     </div>
       <div data-name="SQL Server">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server">
         <span>SQL Server</span>
@@ -97,7 +97,7 @@
         <span>GitHub Actions</span>
       </div>
       <div data-name="GitHub">
-        <img src="icon/GitHub.svg" alt="GitHub">
+         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="filter: invert(1);" />
         <span>GitHub</span>
       </div>
       <div data-name="Shell Script">
@@ -138,66 +138,96 @@
   </section>
   
 
+<section id="experiencia" class="experience-section">
+  <h3>Experiência</h3>
 
+  <div class="job">
+    <h4 class="job-title">
+      <img src="img/santander-logo.jpg" alt="Santander" class="empresa-logo" />
+      Banco Santander
+    </h4>
+    <p class="periodo">2020 → 2022</p>
+    <p>Atuei com foco em DevOps, incluindo a implantação de práticas e ferramentas da área, além da automação de processos de CI/CD. Trabalhei com sistemas, utilizando JavaScript, GitHub Actions e a plataforma Azure para garantir eficiência e escalabilidade nas entregas.</p>
+  </div>
 
-  <section id="experiencia" class="experience-section">
-    <h3>Experiência</h3>
-    <div class="job">
-      <h4 class="job-title">Banco Santander</h4>
-      <p class="periodo">2020 → 2022</p>
-      <p>Atuei com foco em DevOps, incluindo a implantação de práticas e ferramentas da área, além da automação de processos de CI/CD. Trabalhei com sistemas, utilizando JavaScript, GitHub Actions e a plataforma Azure para garantir eficiência e escalabilidade nas entregas.</p>
-    </div>
-    <div class="job">
-      <h4 class="job-title">Elera</h4>
-      <p class="periodo">2023 → 2025</p>
-      <p>Atuei com desenvolvimento e administração na plataforma Salesforce, utilizando LWC, Apex, Flow, Triggers, Workflows e Approval Process. Também tive experiência como System Administrator, contribuindo para automações com GitHub Actions, processos de CI/CD e o gerenciamento de comunidades na plataforma (Community).</p>
-    </div>
-    <div class="job">
-      <h4 class="job-title">Accenture</h4>
-      <p class="periodo">2025 → ATUAL</p>
-      <p>Atuei com desenvolvimento na plataforma Salesforce, utilizando LWC, Apex, Flow, Triggers, Workflows e Approval Process. Desempenhei funções de System Administrator, além de trabalhar com automações usando GitHub Actions, práticas de CI/CD e gerenciamento de Community.</p>
-    </div>
-  </section>
-  
+  <div class="job">
+    <h4 class="job-title">
+      <img src="img/Elera.jpg" alt="Elera" class="empresa-logo" />
+      Elera
+    </h4>
+    <p class="periodo">2023 → 2025</p>
+    <p>Atuei com desenvolvimento e administração na plataforma Salesforce, utilizando LWC, Apex, Flow, Triggers, Workflows e Approval Process. Também tive experiência como System Administrator, contribuindo para automações com GitHub Actions, processos de CI/CD e o gerenciamento de comunidades na plataforma (Community).</p>
+    <img src="img/Carta Referencia (Elera).jpg" alt="Carta de Referência da Elera" class="carta-referencia" />
+  </div>
 
-  <section id="formacao" class="education-section">
-    <h3>Formação</h3>
-    <div class="timeline">
-        <div class="edu-left">
-            <div class="edu-item">
-                <h4>ETEC de Guaianazes</h4>
-                <p class="periodo">2020 → 2021</p>
-                <p>Curso técnico modular em Desenvolvimento de Sistemas.</p>
-            </div>
-        </div>
-        <div class="linha-do-tempo"></div>
-        <div class="edu-right">
-            <div class="edu-item">
-                <h4>São Paulo Tech School</h4>
-                <p class="periodo">2023 → 2024</p>
-                <p>Curso superior em Análise e Desenvolvimento de Sistemas.</p>
-            </div>
-        </div>
-    </div>
+  <div class="job">
+    <h4 class="job-title">
+      <img src="img/Accenture.gif" alt="Accenture" class="empresa-logo" />
+      Accenture
+    </h4>
+    <p class="periodo">Março → Julho 2025</p>
+    <p>Atuei com desenvolvimento na plataforma Salesforce, utilizando LWC, Apex, Flow, Triggers, Workflows e Approval Process. Desempenhei funções de System Administrator, além de trabalhar com automações usando GitHub Actions, práticas de CI/CD e gerenciamento de Community.</p>
+  </div>
+
+  <div class="job">
+    <h4 class="job-title">
+      <img src="img/ibm.jpeg" alt="IBM" class="empresa-logo" />
+      IBM
+    </h4>
+    <p class="periodo">Julho 2025 → ATUAL</p>
+    <p>Atuo como Package Specialist com foco em Salesforce. Realizo desenvolvimento com Apex, LWC e Visualforce, além de atuar em processos de deploy entre ambientes (sandbox) usando ferramentas como Copado, Autorabit, Jenkins, GitHub, Change Sets, DevOps Center e Salesforce IDx.</p>
+  </div>
 </section>
 
-  <section class="contact-section">
-    <p>
-      Se o que você viu aqui despertou seu interesse e deseja saber mais sobre meu trabalho ou discutir uma possível colaboração, será um prazer conversar. Estou disponível para esclarecer dúvidas, apresentar minhas experiências com mais detalhes e entender como posso contribuir com o que você precisa.
-    </p>
-    <div class="social-icons">
-      <a href="https://github.com/WillGD">
-        <img src="icon/GitHub.svg" alt="GitHub">
-      </a>
-      <a href="https://www.linkedin.com/in/will-dantas-54532922b/">
-        <img src="icon/linkedin.svg" alt="LinkedIn">
-      </a>
-      <a href="mailto:willgustavodantasadolpho@gmail.com">
-        <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1 .9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM20 8l-8 5-8-5V6l8 5 8-5v2z"/>
-        </svg>
-      </a>
+
+
+
+  
+  
+<section id="formacao" class="education-section">
+  <h3>Formação</h3>
+  <div class="timeline">
+    <div class="edu-left">
+      <div class="edu-item">
+        <img src="img/Etec.jpg" alt="Logo ETEC de Guaianazes" class="edu-logo" />
+        <h4>ETEC de Guaianazes</h4>
+        <p class="periodo">2020 → 2021</p>
+        <p>Curso técnico modular em Desenvolvimento de Sistemas.</p>
+      </div>
     </div>
+    <div class="linha-do-tempo"></div>
+    <div class="edu-right">
+      <div class="edu-item">
+        <img src="img/Sptech.png" alt="Logo São Paulo Tech School" class="edu-logo" />
+        <h4>São Paulo Tech School</h4>
+        <p class="periodo">2023 → 2024</p>
+        <p>Curso superior em Análise e Desenvolvimento de Sistemas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="contact-section">
+  <p>
+    Se o que você viu aqui despertou seu interesse e deseja saber mais sobre meu trabalho ou discutir uma possível colaboração, será um prazer conversar. Estou disponível para esclarecer dúvidas, apresentar minhas experiências com mais detalhes e entender como posso contribuir com o que você precisa.
+  </p>
+  <div class="social-icons">
+    <a href="https://github.com/WillGD" target="_blank" rel="noopener">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" width="30" height="30" style="filter: invert(1);" />
+    </a>
+    <a href="https://www.linkedin.com/in/will-dantas-54532922b/" target="_blank" rel="noopener">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" width="30" height="30" style="filter: invert(34%) sepia(96%) saturate(748%) hue-rotate(180deg) brightness(91%) contrast(89%);" />
+    </a>
+    <a href="mailto:willgustavodantasadolpho@gmail.com">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1 .9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM20 8l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
   
 
     <footer>
