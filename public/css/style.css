@@ -206,19 +206,16 @@ header {
 }
 
 .skills-section h3 {
-  text-align: center;
-  font-size: 2.7rem;
-  margin-bottom: 40px;
-  color: #ffffff;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
+
 .skills-icons {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
-  justify-items: center;
-  align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 30px;  
+    justify-items: center;
 }
 
 .skills-icons div {
@@ -347,25 +344,6 @@ header {
     transform: translateX(5px);
 }
 
-.carta-referencia {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  margin: 20px auto 0;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  display: block;
-}
-
-.empresa-logo {
-  height: 60px;
-  vertical-align: middle;
-  margin-right: 8px;
-  border-radius: 4px;
-  object-fit: contain;
-}
-
-
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -418,15 +396,6 @@ header {
 
 .edu-right {
     animation: fadeInRight 1s forwards;
-}
-
-.edu-logo {
-  width: 80px;
-  height: auto;
-  margin-bottom: 12px;
-  border-radius: 6px;
-  align-self: flex-start;
-  box-shadow: 0 3px 8px rgba(0, 170, 255, 0.5);
 }
 
 .linha-do-tempo {
