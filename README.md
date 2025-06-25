@@ -10,7 +10,7 @@ Bem-vindo ao meu portfólio! Aqui você encontrará uma visão geral de quem sou
 
 ## 🧑‍💻 Sobre mim
 
-Sou um **Salesforce Developer** com experiência em análise e desenvolvimento de sistemas. Formado como técnico em Desenvolvimento de Sistemas e graduado em Sistemas de Análise e Desenvolvimento, atualmente trabalho como Analista de Desenvolvimento na **Accenture Brasil**. Ao longo da minha carreira, tenho desenvolvido soluções de automação e integração na plataforma Salesforce, além de contribuir para a transformação digital das empresas com as quais trabalho.
+Sou um **Salesforce Developer** com experiência em análise e desenvolvimento de sistemas. Formado como técnico em Desenvolvimento de Sistemas e graduado em Sistemas de Análise e Desenvolvimento, atualmente trabalho como Analista de Desenvolvimento na *IBM**. Ao longo da minha carreira, tenho desenvolvido soluções de automação e integração na plataforma Salesforce, além de contribuir para a transformação digital das empresas com as quais trabalho.
 
 ## 🔧 Como usar este portfólio
 
