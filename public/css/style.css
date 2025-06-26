@@ -21,6 +21,8 @@ body {
   box-sizing: border-box;
 }
 
+
+
 .hero {
   animation: fadeIn 2s ease-out;
 }
@@ -344,6 +346,34 @@ header {
     transform: translateX(5px);
 }
 
+.carta-referencia {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px auto 0;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  display: block;
+}
+
+.empresa-logo {
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.edu-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  align-self: flex-start;
+  box-shadow: 0 3px 8px rgba(0, 170, 255, 0.5);
+}
+
+
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -499,13 +529,68 @@ header {
     opacity: 0.8;
 }
 
-footer {
-    margin-top: 20px;
-    text-align: center;
-    color: #fff;
-    font-size: 0.9rem;
+.footer-destaque {
+  background: #0a0a0a;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #1f1f1f;
+  animation: fadeIn 1s ease-out forwards;
 }
 
-footer p {
-    margin: 0;
+.footer-glow {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0,255,200,0.15), transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+  animation: pulseNeon 6s infinite ease-in-out;
 }
+
+.footer-content {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  animation: fadeInUp 1.2s forwards 0.5s;
+}
+
+.footer-nome {
+  font-size: 2rem;
+  color: #00ffd5;
+  text-shadow: 0 0 10px rgba(0,255,213,0.6);
+  margin-bottom: 10px;
+  animation: glowText 2s infinite alternate;
+}
+
+.footer-sub {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseNeon {
+  0%, 100% { transform: translateX(-50%) scale(1); opacity: 0.4; }
+  50% { transform: translateX(-50%) scale(1.2); opacity: 0.7; }
+}
+
+@keyframes glowText {
+  0% { text-shadow: 0 0 5px #00ffd5; }
+  100% { text-shadow: 0 0 15px #00ffd5; }
+}
+
